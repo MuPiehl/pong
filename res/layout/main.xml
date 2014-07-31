@@ -3,11 +3,10 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello, MPi PongActivity"
-            />
+              android:background="#ffffff" android:weightSum="1">
+    <view android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          class="org.coopmobil.pong.views.PlayGroundView" android:id="@+id/view"
+          android:layout_gravity="center_horizontal" android:layout_weight="0.60"/>
 </LinearLayout>
 
